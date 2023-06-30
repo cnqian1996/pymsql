@@ -3,7 +3,7 @@ import pymysql
 
 def main():
     # 建立连接
-    conn = pymysql.connect(host='58.213.41.44', port=12307, user='root', password='123456', db='school', charset='utf8')
+    conn = pymysql.connect(host='58.213.61.44', port=12307, user='root', password='123456', db='school', charset='utf8')
 
     try:
         # 上下文语法
