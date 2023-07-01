@@ -6,7 +6,7 @@ def main():
     colweb1 = input('学校新网站地址：')
     colmaster1 = input('新院长名字：')
     # 第一步：指定主机、端口、用户名、口令、数据库、字符集创建连接
-    conn = pymysql.connect(host='58.213.61.44', port=12307, user='root', password='123456', db='school', charset='utf8')
+    conn = pymysql.connect(host='58.213.41.44', port=12307, user='root', password='123456', db='school', charset='utf8')
 
     try:
         # 第二步：通过连接对象的cursor方法获取游标对象
